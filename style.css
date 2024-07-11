@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family:  "Lato", sans-serif;
+}
+nav ul li{
+    padding: 12px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    display: flex;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('bg1.avif');
+    background-size: cover;
+    
+    
+}
+.Bottam{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+
+}
+.icon{
+    
+    margin: 10px 0;
+
+}
+.icon i{
+    cursor: pointer;
+}
+#range{
+    width: 80vw;
+    text-align: center;
+}
+.songItem{
+    height: l50px;
+    display: flex;
+    background-color: white;
+    width: 110%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+.songItem img{
+    border-radius: 34px;
+}
+.Timespan{
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+    
+    
+
+.details{
+    font-family:"Lato", sans-serif;
+}
+.info{
+    position: absolute;
+    left: 0;
+
+}
+.info img{
+    opacity: 0;
+    transition:opacity is 0.4s ease-in;
+}
